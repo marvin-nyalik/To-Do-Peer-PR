@@ -1,12 +1,12 @@
 import './style.css';
-import addTask from './addRemove.js';
+import addTask from './modules/addRemove.js';
 import {
   toggleTask,
   taskDesc,
   list,
   navList,
   clearCompleted,
-} from './listUtils.js';
+} from './modules/listUtils.js';
 
 // Add event listeners
 taskDesc.addEventListener('keydown', (event) => {
